@@ -1,10 +1,12 @@
 package com.stackroute.domain;
 
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity
+@Document
 public class Track {
     @Id
     int id;
